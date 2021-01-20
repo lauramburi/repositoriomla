@@ -1,0 +1,50 @@
+
+.logo_menu{
+	width: 180px;
+}
+
+
+.menuindex{
+	vertical-align: bottom;
+	color: #9B9B9B;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+
+}
+
+h2{
+	font-weight: 200px;
+	text-align: center;
+	color: #87E4D9;
+}
+
+h5{font-weight: 200px;
+	color: #ffffff;
+}
+
+footer{
+	background-color: #68DDCE;
+	padding-top: 30px;
+	padding-left: 50px;
+	padding-right: 50px;
+	color: #ffffff;
+}
+
+.textobienvenida{
+	font-size: 17px;
+	text-align: center;
+	color: #9B9B9B;
+}
+
+.footeraqua{
+	padding: 15px;
+    position: relative;
+    top: 45px;
+    left: 100px;
+	}
+
+.logofooter{
+	width: 250px;
+}
