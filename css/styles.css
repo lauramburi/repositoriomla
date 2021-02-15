@@ -1,36 +1,67 @@
 
-.logo_menu{
-	width: 180px;
-}
-
-
-.menuindex{
-	vertical-align: bottom;
-	color: #9B9B9B;
-}
-
 body{
 	font-family: 'Raleway', sans-serif;
-
 }
 
 h2{
-	font-weight: 200px;
+	font-size: 40px;
+	font-weight: bold;
 	text-align: center;
 	color: #87E4D9;
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+h3{
+	font-size: 25px;
+	color: #e1e1e1;
+	text-align: center;
+	font-weight: bold;
 }
 
-h5{font-weight: 200px;
+h4{
+	font-size: 15px;
+}
+
+h5{ font-weight: 200px;
 	color: #ffffff;
 }
 
-footer{
-	background-color: #68DDCE;
-	padding-top: 30px;
-	padding-left: 50px;
-	padding-right: 50px;
-	color: #ffffff;
+.bannerfinito{
+	padding-bottom: 30px;
 }
+
+a:link, a:visited, a:active {
+    text-decoration:none;
+    }
+
+
+/*ESTILOS MENU*/
+.logo_menu{
+	width: 170px;
+}
+
+nav a{
+	font-size: 14px;
+	font-variant: regular 400;
+	vertical-align: middle;
+	color: #9B9B9B;
+}
+ 
+ nav a:hover{
+ 	color: #9b9b9b;
+ 	font-weight: bold;
+ 	}
+
+nav li{
+	margin: 5px;
+}
+
+li a{
+	display: inline-block;
+}
+
+
+/* ESTILOS INDEX*/
 
 .textobienvenida{
 	font-size: 17px;
@@ -38,13 +69,182 @@ footer{
 	color: #9B9B9B;
 }
 
-.footeraqua{
+
+/* ESTILOS CONTACTO*/
+
+.cuadrourgencias{
+	background-color: #2DC8B5;
+	color: #ffffff;
+	padding-top: 20px;
+	padding-right: 20px;
+	padding-left: 20px;
+	padding-bottom: 5px;
+}
+
+.cuadrorecetas{
+	background-color: #DDF7F3;
+	border-top: solid 3px #8d8d8d;
 	padding: 15px;
-    position: relative;
-    top: 45px;
-    left: 100px;
+}
+
+.ubicacion{
+	padding-top: 55px;
+	}
+
+.sombracuadro{
+	padding: 15px;
+	box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 3px 5px 0 rgba(0, 0, 0, 0.19);
+}
+
+/* ESTILOS GALERIA*/
+
+.grillagaleria{
+	padding: 15px;
+}
+
+.imagenesgaleria{
+	width: 560px;
+}
+
+/* ESTILOS SERVICIOS*/
+
+.grillatratamientos1{
+	margin-top: 15px;
+	width: 450px;
+	height: 200px;
+	background-image: url("../imagenes/tratamientos1c.jpg");
+	background-color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.grillatratamientos1:hover{
+	background-image: url("../imagenes/tratamientos1byn.jpg");
+}
+
+.grillatratamientos2{
+	margin-top: 15px;
+	width: 450px;
+	height: 200px;
+	background-image: url("../imagenes/tratamientos2c.jpg");
+	background-color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.grillatratamientos2:hover{
+	background-image: url("../imagenes/tratamientos2byn.jpg");
+}
+
+.grillatratamientos3{
+	margin-top: 15px;
+	width: 450px;
+	height: 200px;
+	background-image: url("../imagenes/tratamientos3c.jpg");
+	background-color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.grillatratamientos3:hover{
+	background-image: url("../imagenes/tratamientos3byn.jpg");
+}
+
+.grillatratamientos4{
+	margin-top: 15px;
+	width: 450px;
+	height: 200px;
+	background-image: url("../imagenes/tratamientos4c.jpg");
+	background-color: #ffffff;
+	background-position: center;
+	background-repeat: no-repeat;
+}
+.grillatratamientos4:hover{
+	background-image: url("../imagenes/tratamientos4byn.jpg");
+}
+
+.textotratam{
+	font-size: 40px;
+	font-weight: bold;
+	color: #ffffff;
+	text-align: right;
+	vertical-align: middle;
+}
+
+.linkstratam{
+	text-decoration: none;
+}
+a.linkstratam{
+	text-decoration: none;
+}
+
+/* ESTILOS ACORDEON*/
+.acordiontitulointerno{
+	font-weight: bold;
+}
+.acordiontitulo{
+	font-weight: bold;
+	font-size: 20px;
+	color: #2DC8B5;
+	border: solid 0px;
+}
+
+
+/* ESTILOS STAFF*/
+
+.nombresstaff{
+	color: #bebebe;
+	font-weight: bold;
+}
+
+.vermasstaff{
+	text-align: right;
+}
+.avermas{
+	color: #2DC8B5;
+	font-weight: bold;
+}
+.cvstaff{
+	font-weight: bold;
+}
+
+/* ESTILOS FOOTER*/
+
+footer{
+	background-color: #68DDCE;
+	padding: 30px;
+	color: #ffffff;
+	margin-top: 30px;
+}
+footer a{
+	text-decoration: none;
+	color: #ffffff;
+}
+
+footer a:hover{
+	letter-spacing: 1px;
+	font-weight: bold;
+	color: #ffffff;
+}
+
+.footercolumna1{
+	margin-top: 20px;
 	}
 
 .logofooter{
-	width: 250px;
+	width: 220px;
+}
+
+.whatsappicon{
+	margin-left: 2px;
+	margin-top: 3px;
+	height: 20px;
+}
+.mailicon{
+	margin-left: 2px;
+	margin-top: 3px;
+	height: 25px;
+}
+
+.redesicon{
+	margin-left: 2px;
+	margin-top: 3px;
+	height: 35px;
 }

@@ -1,0 +1,22 @@
+$coloraqua: #68DDCE;
+$aquaclaro: #B1EDE6;
+$aquaoscuro: #2DC8B5;
+$grisclaro: #e1e1e1;
+$grisoscuro: #bebebe;
+
+ul{
+	color: $aquaoscuro;
+	li {
+		color: $grisoscuro;
+		vertical-align: middle;
+		li a {
+			color: $grisclaro;
+			vertical-align: middle;
+			}
+		}
+	}
+
+h3{
+	color: $aquaclaro;
+	text-align: center;
+}

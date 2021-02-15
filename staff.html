@@ -7,6 +7,8 @@
 	<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
 	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
 	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+	<link rel="preconnect" href="https://fonts.gstatic.com">
+	<link href="https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;1,200;1,300;1,400;1,500&display=swap" rel="stylesheet">
 	<link rel="stylesheet" type="text/css" href="css/styles.css">
 	<style>
 	  .carousel-inner img {
@@ -19,56 +21,117 @@
 	
 <body>
 
-	<nav id="nav">
+<nav id="nav">
 	<div class="container">	
 		<ul class="nav justify-content-center">
-	        <li class="nav-item"><a class="nav-link" href="staff.html">STAFF</a></li>
-	        <li class="nav-item"><a class="nav-link" href="galeria.html">GALERIA</a></li>
-	        <li class="nav-item"><a class="nav-link" href="servicios.html">SERVICIOS</a></li>
-	        <li class="nav-item"><a class="nav-link" href="index.html"><img class="logo_menu" src="imagenes/logo_colorgris.svg"></a> </li>
-	        <li class="nav-item"><a class="nav-link" href="ubicacion.html">UBICACIÓN</a></li>
-	        <li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
-	        <li class="nav-item"><a class="nav-link" href="#">COVID-19</a></li>
-	    </ul>
+			<li class="nav-item"><a class="nav-link" href="staff.html">STAFF</a></li>
+			<li class="nav-item"><a class="nav-link" href="galeria.html">GALERIA</a></li>
+			<li class="nav-item"><a class="nav-link" href="index.html"><img class="logo_menu" src="imagenes/logo_colorgris.svg"></a> </li>
+			<li class="nav-item"><a class="nav-link" href="servicios.html">SERVICIOS</a></li>
+			<li class="nav-item"><a class="nav-link" href="contacto.html">CONTACTO</a></li>
+		</ul>
 	</div>
 </nav>
 
-<h2>STAFF</h2>
-    <section>
+
+<section>
 	<div class="row">
-		<div class="col col-12"><img src="imagenes/imagenconlogofina.jpg"></div>
+		<div class="col col-12" ><img class="bannerfinito" src="imagenes/imagenconlogofina.jpg"></div>
 	</div>
 </section>
+<h2>STAFF</h2>
+
+<div class="container">
+<h3>¡ASÍ NOS GUSTA TRABAJAR!</h3>
+<p class="textobienvenida">En nuestro consultorio aspiramos a la excelencia e innovación en cada tratamiento dental y para lograrlo todo nuestro equipo de dentistas trabajan de manera coordinada, cada uno desde su especialidad, para poder entregar resultados excepcionales a nuestros pacientes. </p>
+</div>
 
 
 <section>
 	<div class="container">
 		<div class="row">
-			<div class="col col-4">IMAGEN PROFESIONAL 1:<br>
-			Dr. Apellido, Nomrbe Nombre.<br>
-			Especialidad</div>
-			<div class="col col-4">IMAGEN PROFESIONAL 2:<br>
-			Dr. Apellido, Nomrbe Nombre.<br>
-			Especialidad</div>
-			<div class="col col-4">IMAGEN PROFESIONAL 3:<br>
-			Dr. Apellido, Nomrbe Nombre.<br>
-			Especialidad</div>
+			<div class="col col-4">
+
+				<div class="card" style="width: 22rem;">
+				  <img src="imagenes/staff1.PNG" class="card-img-top" alt="Mariela Agustina Lopenici">
+				  <div class="card-body">
+				    <p class="card-text nombresstaff">MARIELA AGUSTINA LOPENICI</p>
+				    <p class="card-text vermasstaff"><a data-toggle="collapse" href="#collapse1" role="button" aria-expanded="false" aria-controls="collapse1" class="avermas">Ver +</a></p>
+				    <!--inicia el despliegue de cv-->
+						<div class="collapse" id="collapse1">
+						<div class="card card-body">
+						<p class="cvstaff">Especialista en estética dental.<br><br></p>
+						<p>La Dra. Lopenici es Egresada de la Universidad Maimonides, con posgrado en estetica dental ymaxilofacial. Miembro de la Asociación Odontológica Argentina y de la American Dental Association.</p>
+						</div>
+						</div><!--finaliza el despliegue de cv-->
+				  </div>
+				</div>
+			</div>
+
+			<div class="col col-4">
+				<div class="card" style="width: 22rem;">
+				  <img src="imagenes/staff2.PNG" class="card-img-top" alt="German Perez Gonzalez">
+				  <div class="card-body">
+				    <p class="card-text nombresstaff">GERMAN PEREZ GONZALEZ</p>
+				    <p class="card-text vermasstaff"><a data-toggle="collapse" href="#collapse2" role="button" aria-expanded="false" aria-controls="collapse2" class="avermas">Ver +</a></p>
+						<!--inicia el despliegue de cv-->
+						<div class="collapse" id="collapse2">
+						<div class="card card-body">
+						<p class="cvstaff">Especialista en implantes dentales y estética dental.<br></p>
+						<p>Egresado de la Universidad del Moron, con posgrado en implantes y prótesis dento-maxilofacial en la UADE. Miembro de la Asociación Odontológica Argentina.</p>
+						</div>
+						</div><!--finaliza el despliegue de cv-->
+				  </div>
+				</div>
+			</div>
+			<div class="col col-4">
+				<div class="card" style="width: 22rem;">
+				  <img src="imagenes/staff3.PNG" class="card-img-top" alt="Anabella Lucia Garciani">
+				  <div class="card-body">
+				    <p class="card-text nombresstaff">ANABELLA LUCIA GARCIANI</p>
+				    <p class="card-text vermasstaff"><a data-toggle="collapse" href="#collapse3" role="button" aria-expanded="false" aria-controls="collapse3" class="avermas">Ver +</a></p>
+				    <!--inicia el despliegue de cv-->
+						<div class="collapse" id="collapse3">
+						<div class="card card-body">
+						<p class="cvstaff"> Especialista en endodoncia.<br><br></p>
+						<p>Egresada de la Universidad Catolica, con posgrado en endodoncia. Miembro de la American Dental Association.<br><br>
+						La Dra. Garciani ha realizado numerosos cursos sobre endodoncia, con los profesores más destacados del país y del exterior.</p>
+						</div>
+						</div><!--finaliza el despliegue de cv-->
+				  </div>
+				</div>
+			</div>
 		</div>
 	</div>
 </section>
-<hr>
-<br><br>		
+
+		
 
 
 
 <footer>
 	<div class="container">
-	<div class="row" >
-		<div class="col col-2">Icono instagram:<br>@aquadentalconcept</div>
-		<div class="col col-2">Icono Facebook:<br>/aquadentalconcept</div>
-		<div class="col col-2">Icono watsapp:<br>11-1122-3344</div>
-		<div class="col col-6">Ubicacion:<br>Av. Corrientes 4416 - Almagro<br>C.P.: 1234<br>Icono watsapp:11-1122-3344<br>Icono Mail: aquadentalconcept@gmail.com<div>
+		<div class="row">
+			<div class="col md-8" >
+				<div class="footercolumna1"><a href="#index.html"> <img class="logofooter"src="imagenes/logo_colorblanco.svg"></a></div>
+			</div>
+				
+			<div class="col md-2">
+				<h5>Seguinos:</h5>
+				<p>
+				<img src="imagenes/instagram.svg" class="redesicon"><a href="https://www.instagram.com/aquadentalconcept/" target="blank"> @aquadentalconcept</a> </p>
+				<p><img src="imagenes/facebook.svg" class="redesicon"><a href="https://www.facebook.com/aquadentalconcept" target="blank"> /aquadentalconcept</a>
+				</p>
+			</div>
+			<div class="col md-2">
+				<h5>Contacto:</h5>
+				<p>Av. Corrientes 4416 - Almagro<br>C.P.: 1234<br>
+					<img src="imagenes/whatsapp.svg" class="whatsappicon"> 11-2020-3030<br>
+					<img src="imagenes/email.svg" class="mailicon"> aquadentalconcept@gmail.com</p>
+			</div>
 		</div>
+	</div>
 </footer>
+
 </body>
 </html>
